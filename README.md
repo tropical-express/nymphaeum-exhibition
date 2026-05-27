@@ -1,6 +1,6 @@
 # Roman Nymphaeum Archive
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-gold)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
 Digital museum archive documenting Roman nymphaea, monumental fountains, and sacred water architecture throughout the ancient Mediterranean world.
 
