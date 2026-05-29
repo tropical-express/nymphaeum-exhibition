@@ -1,0 +1,47 @@
+{
+  "name": "nymphaeum-exhibition",
+  "version": "1.0.0",
+  "description": "Offline Electron edition of the Nymphaeum Exhibition project",
+  "main": "electron/main.js",
+  "author": "tropical-express",
+  "license": "MIT",
+  "private": true,
+
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "dist": "electron-builder",
+    "pack": "electron-builder --dir"
+  },
+
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  },
+
+  "build": {
+    "appId": "com.tropicalexpress.nymphaeum",
+    "productName": "Nymphaeum Exhibition",
+
+    "directories": {
+      "output": "dist"
+    },
+
+    "files": [
+      "**/*"
+    ],
+
+    "win": {
+      "target": ["nsis", "msi", "portable"]
+    },
+
+    "linux": {
+      "target": ["deb", "AppImage"]
+    },
+
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
