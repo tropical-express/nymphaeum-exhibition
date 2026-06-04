@@ -3,3 +3,5 @@ dist/
 pnpm-lock.yml
 package-lock.json
 *.log
+*.tar.xz
+*.zip
